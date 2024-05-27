@@ -1,0 +1,9 @@
+name: Shop
+version: 1.0.0
+author: Farmero
+api: 5.0.0
+main: Farmero\shop\Shop
+
+permissions:
+  shop.cmd:
+    default: true

@@ -1,0 +1,267 @@
+Weapons:
+  image: "textures/items/diamond_sword"
+  items:
+    - name: "Wooden Sword"
+      item_image: "textures/items/wood_sword"
+      id: "wooden_sword"
+      price: 100
+    - name: "Wooden Axe"
+      item_image: "textures/items/wood_axe"
+      id: "wooden_axe"
+      price: 150
+    - name: "Stone Sword"
+      item_image: "textures/items/stone_sword"
+      id: "stone_sword"
+      price: 200
+    - name: "Stone Axe"
+      item_image: "textures/items/stone_axe"
+      id: "stone_axe"
+      price: 250
+    - name: "Gold Sword"
+      item_image: "textures/items/gold_sword"
+      id: "gold_sword"
+      price: 300
+    - name: "Gold Axe"
+      item_image: "textures/items/gold_axe"
+      id: "gold_axe"
+      price: 350
+    - name: "Iron Sword"
+      item_image: "textures/items/iron_sword"
+      id: "iron_sword"
+      price: 400
+    - name: "Iron Axe"
+      item_image: "textures/items/iron_axe"
+      id: "iron_axe"
+      price: 450
+    - name: "Diamond Sword"
+      item_image: "textures/items/diamond_sword"
+      id: "diamond_sword"
+      price: 500
+    - name: "Diamond Axe"
+      item_image: "textures/items/diamond_axe"
+      id: "diamond_axe"
+      price: 550
+    - name: "Bow"
+      item_image: "textures/items/bow_standby"
+      id: "bow"
+      price: 2500
+
+Tools:
+  image: "textures/items/diamond_pickaxe"
+  items:
+    - name: "Wooden Pickaxe"
+      item_image: "textures/items/wood_pickaxe"
+      id: "wooden_pickaxe"
+      price: 100
+    - name: "Wooden Shovel"
+      item_image: "textures/items/wood_shovel"
+      id: "wooden_shovel"
+      price: 150
+    - name: "Wooden Hoe"
+      item_image: "textures/items/wood_hoe"
+      id: "wooden_hoe"
+      price: 150
+    - name: "Stone Pickaxe"
+      item_image: "textures/items/stone_pickaxe"
+      id: "stone_pickaxe"
+      price: 200
+    - name: "Stone Shovel"
+      item_image: "textures/items/stone_shovel"
+      id: "stone_pickaxe"
+      price: 250
+    - name: "Stone Hoe"
+      item_image: "textures/items/stone_hoe"
+      id: "stone_hoe"
+      price: 150
+    - name: "Gold Pickaxe"
+      item_image: "textures/items/gold_pickaxe"
+      id: "gold_pickaxe"
+      price: 300
+    - name: "Gold Shovel"
+      item_image: "textures/items/gold_shovel"
+      id: "gold_shovel"
+      price: 350
+    - name: "Gold Hoe"
+      item_image: "textures/items/gold_hoe"
+      id: "gold_hoe"
+      price: 150
+    - name: "Iron Pickaxe"
+      item_image: "textures/items/iron_pickaxe"
+      id: "iron_pickaxe"
+      price: 400
+    - name: "Iron Shovel"
+      item_image: "textures/items/iron_shovel"
+      id: "iron_shovel"
+      price: 450
+    - name: "Iron Hoe"
+      item_image: "textures/items/iron_hoe"
+      id: "iron_hoe"
+      price: 150
+    - name: "Diamond Pickaxe"
+      item_image: "textures/items/diamond_pickaxe"
+      id: "diamond_pickaxe"
+      price: 500
+    - name: "Diamond Shovel"
+      item_image: "textures/items/diamond_shovel"
+      id: "diamond_shovel"
+      price: 550
+    - name: "Diamond Hoe"
+      item_image: "textures/items/diamond_hoe"
+      id: "diamond_hoe"
+      price: 150
+
+Armor:
+  image: "textures/items/diamond_chestplate"
+  items:
+    - name: "Leather Cap"
+      item_image: "textures/items/leather_helmet"
+      id: "leather_cap"
+      price: 200
+    - name: "Leather Tunic"
+      item_image: "textures/items/leather_chestplate"
+      id: "leather_tunic"
+      price: 150
+    - name: "Leather Pants"
+      item_image: "textures/items/leather_leggings"
+      id: "leather_pants"
+      price: 150
+    - name: "Leather Boots"
+      item_image: "textures/items/leather_boots"
+      id: "leather_boots"
+      price: 150
+    - name: "Chainmail Helmet"
+      item_image: "textures/items/chainmail_helmet"
+      id: "chainmail_helmet"
+      price: 200
+    - name: "Chainmail Chestplate"
+      item_image: "textures/items/chainmail_chestplate"
+      id: "chainmail_chestplate"
+      price: 150
+    - name: "Chainmail Leggings"
+      item_image: "textures/items/chainmail_leggings"
+      id: "chainmail_leggings"
+      price: 150
+    - name: "Chainmail Boots"
+      item_image: "textures/items/chainmail_boots"
+      id: "chainmail_boots"
+      price: 150
+    - name: "Gold Helmet"
+      item_image: "textures/items/gold_helmet"
+      id: "gold_helmet"
+      price: 200
+    - name: "Gold Chestplate"
+      item_image: "textures/items/gold_chestplate"
+      id: "gold_chestplate"
+      price: 150
+    - name: "Gold Leggings"
+      item_image: "textures/items/gold_leggings"
+      id: "gold_leggings"
+      price: 150
+    - name: "Gold Boots"
+      item_image: "textures/items/gold_boots"
+      id: "gold_boots"
+      price: 150
+    - name: "Iron Helmet"
+      item_image: "textures/items/iron_helmet"
+      id: "iron_helmet"
+      price: 200
+    - name: "Iron Chestplate"
+      item_image: "textures/items/iron_chestplate"
+      id: "iron_chestplate"
+      price: 150
+    - name: "Iron Leggings"
+      item_image: "textures/items/iron_leggings"
+      id: "iron_leggings"
+      price: 150
+    - name: "Iron Boots"
+      item_image: "textures/items/iron_boots"
+      id: "iron_boots"
+      price: 150
+    - name: "Diamond Helmet"
+      item_image: "textures/items/diamond_helmet"
+      id: "diamond_helmet"
+      price: 200
+    - name: "Diamond Chestplate"
+      item_image: "textures/items/diamond_chestplate"
+      id: "diamond_chestplate"
+      price: 150
+    - name: "Diamond Leggings"
+      item_image: "textures/items/diamond_leggings"
+      id: "diamond_leggings"
+      price: 150
+    - name: "Diamond Boots"
+      item_image: "textures/items/diamond_boots"
+      id: "diamond_boots"
+      price: 150
+
+Food:
+  image: "textures/items/apple"
+  items:
+    - name: "Apple"
+      item_image: "textures/items/apple"
+      id: "apple"
+      price: 10
+    - name: "Bread"
+      item_image: "textures/items/bread"
+      id: "bread"
+      price: 10
+    - name: "Cake"
+      item_image: "textures/items/cake"
+      id: "cake"
+      price: 10
+    - name: "Golden Carrot"
+      item_image: "textures/items/carrot_golden"
+      id: "golden_carrot"
+      price: 10
+    - name: "Steak"
+      item_image: "textures/items/beef_cooked"
+      id: "steak"
+      price: 20
+    - name: "Cooked Porkchop"
+      item_image: "textures/items/porkchop_cooked"
+      id: "cooked_porkchop"
+      price: 20
+    - name: "Cooked Chicken"
+      item_image: "textures/items/chicken_cooked"
+      id: "cooked_chicken"
+      price: 20
+    - name: "Cooked Fish"
+      item_image: "textures/items/fish_cooked"
+      id: "cooked_fish"
+      price: 20
+
+Misc:
+  image: "textures/items/ender_pearl"
+  items:
+    - name: "Ender Pearl"
+      item_image: "textures/items/ender_pearl"
+      id: "ender_pearl"
+      price: 10
+    - name: "Flint and Steel"
+      item_image: "textures/items/flint_and_steel"
+      id: "flint_and_steel"
+      price: 10
+    - name: "TNT"
+      item_image: "textures/blocks/tnt_side"
+      id: "tnt"
+      price: 10
+    - name: "Bucket"
+      item_image: "textures/items/bucket_empty"
+      id: "bucket"
+      price: 10
+    - name: "Lava Bucket"
+      item_image: "textures/items/bucket_lava"
+      id: "lava_bucket"
+      price: 10
+    - name: "Water Bucket"
+      item_image: "textures/items/bucket_water"
+      id: "water_bucket"
+      price: 20
+    - name: "Golden Apple"
+      item_image: "textures/items/apple_golden"
+      id: "golden_apple"
+      price: 20000
+    - name: "Arrow"
+      item_image: "textures/items/arrow"
+      id: "arrow"
+      price: 5
