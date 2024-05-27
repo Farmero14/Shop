@@ -5,9 +5,9 @@ branches:
 projects:
   Shop:
     path: ""
-  libs:
-    - src: jojoe77777/FormAPI/libFormAPI
-      version: ^2.1.1
-  lint:
-    phpstan: false
+    libs:
+      - src: jojoe77777/FormAPI/libFormAPI
+        version: ^2.1.1
+    lint:
+      phpstan: false
 ...
