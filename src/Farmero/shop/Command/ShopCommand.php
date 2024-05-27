@@ -14,7 +14,7 @@ class ShopCommand extends Command {
 
     private $plugin;
 
-    public function __construct(Loader $plugin) {
+    public function __construct(Shop $plugin) {
         parent::__construct("shop", "Open the shop menu", "/shop");
         $this->setPermission("shop.cmd");
         $this->plugin = $plugin;
