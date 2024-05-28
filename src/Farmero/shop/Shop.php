@@ -22,6 +22,7 @@ class Shop extends PluginBase {
             $this->getLogger()->info("Disabling Shop, MoneySystem not found... Please make sure to have it installed before trying again!");
             Server::getInstance()->getPluginManager()->disablePlugin($this);
             return;
+        }
     }
 
     public function getShopForm(): ShopForm {
