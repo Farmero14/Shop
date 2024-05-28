@@ -27,7 +27,6 @@ class ShopForm {
     public function __construct(Shop $plugin) {
         $this->plugin = $plugin;
         $this->config = new Config($this->plugin->getDataFolder() . "shop.yml", Config::YAML);
-        $this->moneyManager = MoneySystem::getInstance()->getMoneyManager();
     }
 
     public function sendShopUI(Player $player): void {
@@ -90,7 +89,8 @@ class ShopForm {
             return;
         }
 
-        $balance = $this->moneyManager->getMoney($player);
+        $this->money = MoneySystem::getInstance()->getMoneyManager();
+        $balance = $this->money->getMoney($player);
         if ($balance >= (int)$itemPrice) {
             $form = new CustomForm(function (Player $player, ?array $data) use ($itemName, $itemPrice, $itemId, $itemImage) {
                 if ($data === null) {
@@ -123,7 +123,8 @@ class ShopForm {
             }
             if ($data === 0) {
                 $itemPrice = $totalPrice / $amount;
-                $this->moneyManager->removeMoney($player, $totalPrice);
+                $this->money = MoneySystem::getInstance()->getMoneyManager();
+                $this->money->removeMoney($player, $totalPrice);
                 $item = $parsedItem->setCount($amount);
                 $player->getInventory()->addItem($item);
                 $player->sendMessage("§l§a[!]§r§f You purchased §e{$amount} {$itemName}§f for §a$" . $totalPrice . "§f!");
