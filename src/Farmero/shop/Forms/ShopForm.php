@@ -22,7 +22,7 @@ class ShopForm {
 
     private $plugin;
     private $config;
-    private $moneyManager;
+    private $money;
 
     public function __construct(Shop $plugin) {
         $this->plugin = $plugin;
